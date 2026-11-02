@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#FAF8F5" />
+    <meta
+      name="description"
+      content="Miro - I make software and other things that keep me curious."
+    />
+    <title>Miro</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.png" />
+    <link rel="alternate icon" href="/avatar.png" />
+    <meta property="og:title" content="Miro" />
+    <meta property="og:description" content="I make software and other things that keep me curious." />
+    <meta property="og:image" content="/avatar.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Miro" />
+    <meta name="twitter:description" content="I make software and other things that keep me curious." />
+    <meta name="twitter:image" content="/avatar.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <main class="site-content">
+        <section class="identity-section" aria-label="About Miro Maik">
+          <div id="avatar-container" class="avatar-container">
+            <img
+              id="avatar-img"
+              class="avatar-img"
+              src="/avatar.png"
+              alt="Miro Maik"
+              width="76"
+              height="76"
+              loading="eager"
+            />
+          </div>
+
+          <div class="identity-copy">
+            <h1 id="identity-name" class="identity-name">Miro Maik</h1>
+            <p id="identity-bio" class="identity-bio">
+              I make software and other things that keep me curious.
+            </p>
+            <div id="currently-slot" class="identity-status-slot"></div>
+            <nav id="social-links-slot" class="social-links-slot" aria-label="Personal channels"></nav>
+          </div>
+        </section>
+
+        <div id="projects-slot" class="projects-slot"></div>
+      </main>
+
+      <div id="footer-slot" class="footer-slot"></div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
